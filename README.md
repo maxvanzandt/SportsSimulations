@@ -39,7 +39,9 @@ Full methodology, results, and discussion are in the report: [`docs/4th-and-goal
 ## Repository Structure
 
 R/       # Simulation and modeling scripts
+
 data/    # Fitted models, decision matrices, and analysis outputs (.rds, .csv)
+
 docs/    # Final written report
 
 ## Contributors
