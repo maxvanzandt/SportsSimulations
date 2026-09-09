@@ -14,12 +14,12 @@ The core question: **in a 4th & Goal situation, in what scenarios should a team
 go for it versus kick a field goal, and what factors drive that decision?**
 
 The simulation combines several modeling components:
-- **Field goal success probability** — logistic regression on field position
-- **Fourth down decision modeling** — multinomial regression over go/punt/kick
-- **Yards gained** — mixture-of-normals models, fit separately by play type and field zone
-- **Win probability** — a base model calibrated on score differential and time 
+- **Field goal success probability** - logistic regression on field position
+- **Fourth down decision modeling** - multinomial regression over go/punt/kick
+- **Yards gained** - mixture-of-normals models, fit separately by play type and field zone
+- **Win probability** - a base model calibrated on score differential and time 
   remaining, with adjustments for late-game situations
-- **Decision criterion** — a win-probability-based rule (rather than expected 
+- **Decision criterion** - a win-probability-based rule (rather than expected 
   points) for recommending go-for-it vs. field goal, accounting for score 
   differential, yards to go, and time remaining
 
