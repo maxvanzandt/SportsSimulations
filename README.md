@@ -25,11 +25,11 @@ The simulation combines several modeling components:
 
 ## Key Findings
 
-- **Score differential** is the primary driver of the go-for-it decision — more 
+- **Score differential** is the primary driver of the go-for-it decision more 
   so than yards to go or time remaining
 - Teams trailing by 4–8 points in the final 5 minutes should be considerably 
   more aggressive on 4th & Goal, since a field goal alone leaves them behind
-- The traditional "take the points inside 3 yards" heuristic holds — except at 
+- The traditional "take the points inside 3 yards" heuristic holds except at 
   high score differentials, where going for it dominates regardless of distance
 - Yards to go matters most as a secondary factor, particularly around a 
   ~3-yard threshold
